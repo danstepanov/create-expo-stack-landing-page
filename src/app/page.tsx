@@ -14,7 +14,7 @@ export default function Home() {
 		<main className="flex flex-col items-center justify-center min-h-screen min-w-screen">
 			<div className=" py-12 sm:py-8 md:py-12 lg:py-14 xl:py-12 2xl:py w-4/5 -mt-40">
 				<h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl  lg:text-[4rem] xl:text-[4rem]">
-					The easiest way to create a typesafe React Native app with Expo Router & NativeWind
+					The easiest way to create a React Native app with Expo
 				</h1>
 				<div className="w-full flex flex-row items-center justify-center mt-5">
 					<div className="relative mt-4 flex h-full xl:mt-8">

@@ -1,6 +1,8 @@
+import { Geologica } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
+
 import Nav from "./components/Nav";
 import "./globals.css";
-import { Geologica } from "next/font/google";
 
 const geologica = Geologica({ subsets: ["latin"] });
 
@@ -22,6 +24,7 @@ export default function RootLayout({
 				<Nav />
 				{children}
 			</body>
+			<Analytics />
 		</html>
 	);
 }

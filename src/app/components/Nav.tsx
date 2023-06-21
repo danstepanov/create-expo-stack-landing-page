@@ -6,7 +6,7 @@ const Nav = () => {
 	return (
 		<div className="navbar bg-transparent text-white flex justify-end w-full">
 			<Link href="https://github.com/danstepanov/create-expo-stack">
-				<AiFillGithub className="h-10 w-10" />
+				<AiFillGithub className="m-2 h-10 w-10" />
 			</Link>
 		</div>
 	);
