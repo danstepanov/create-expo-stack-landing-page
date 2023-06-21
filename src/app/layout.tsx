@@ -1,5 +1,4 @@
 import { Geologica } from "next/font/google";
-import { Analytics } from '@vercel/analytics/react';
 
 import Nav from "./components/Nav";
 import "./globals.css";
@@ -24,7 +23,6 @@ export default function RootLayout({
 				<Nav />
 				{children}
 			</body>
-			<Analytics />
 		</html>
 	);
 }
