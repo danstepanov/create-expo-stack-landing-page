@@ -1,69 +1,74 @@
 "use client";
 import { Analytics } from '@vercel/analytics/react';
+import Image from 'next/image';
 
-import { useCopyToClipboard } from "./utilities/useCopyToClipboard";
+import CopyCommandButton from './components/CopyCommandButton';
 
 export default function Home() {
-	const [value, copy, setDelayedCopyText] = useCopyToClipboard();
-
-	function toggleIcon() {
-		setDelayedCopyText()
-		copy('npx create-expo-stack@latest')
-	}
-
-
 	return (
-		<main className="flex flex-col items-center justify-center min-h-screen min-w-screen">
-			<div className=" py-12 sm:py-8 md:py-12 lg:py-14 xl:py-12 2xl:py w-4/5 -mt-40">
+		<main className="flex flex-col items-center w-full">
+			<div className="flex flex-col mt-16 sm:pt-8 md:pt-12 lg:pt-14 xl:pt-12 2xl:pt w-10/12 max-w-screen-lg">
 				<h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl  lg:text-[4rem] xl:text-[4rem]">
 					The easiest way to create a React Native app with Expo
 				</h1>
-				<div className="w-full flex flex-row items-center justify-center mt-5">
-					<div className="relative mt-4 flex h-full xl:mt-8">
-						<button
-							onClick={toggleIcon}
-							className="relative flex cursor-pointer flex-row items-center gap-2 rounded-md border border-white bg-white px-2 py-2 text-sm transition-colors duration-300 hover:border-red-500/50 hover:bg-red-500/20 md:px-3 md:py-3 md:text-lg lg:px-5 lg:py-4 lg:text-xl hover:text-white"
-							title="Copy the command to get started"
-							id="command"
-						>
-							<code id="command-text">npx create-expo-stack@latest</code>
-							{!value ? (
-								<svg
-									id="copy-icon"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									strokeWidth="2"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-								>
-									<rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
-									<path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-								</svg>
-							) :
-							(
-								<svg
-									id="check-icon"
-									xmlns="http://www.w3.org/2000/svg"
-									width="24"
-									height="24"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									strokeWidth="2"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-								>
-									<polyline points="20 6 9 17 4 12"></polyline>
-								</svg>
-							)}
-						</button>
+				<CopyCommandButton />
+			</div>
+			<Image 
+				className='rounded-md'
+				src="/demo.gif" 
+				alt="create-expo-stack demo" 
+				width={750}
+				height={750}
+			/>
+			<section className="py-24 sm:py-32">
+				<h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl  lg:text-[4rem] xl:text-[4rem] pb-16">
+					What people are saying
+				</h1>
+				<div className="mx-auto max-w-7xl px-6 lg:px-8">
+					<div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+					<div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+						<figure className="flex flex-auto flex-col justify-between">
+							<blockquote className="text-lg leading-8 text-white">
+								<p>
+								{"Thanks for building create-expo-stack! It's helped our team to quickly spin up apps and test various modules prior to adding them to our production application."}
+								</p>
+							</blockquote>
+							<figcaption className="mt-10 flex items-center gap-x-6">
+								<Image
+									className="h-14 w-14 rounded-full bg-gray-50"
+									src="/yefim.jpeg"
+									alt="yefim"
+								/>
+								<div className="text-base">
+									<div className="font-semibold text-white">Yefim Vedernikoff</div>
+									<div className="mt-1 text-gray-500">Software Engineer at Partiful</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div className="flex flex-col border-t border-white pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
+						<figure className="flex flex-auto flex-col justify-between">
+						<blockquote className="text-lg leading-8 text-white">
+							<p>
+							{"This is great! I've been using this for a ton of proof of concept applications. This serves my needs better than using create-expo-app."}
+							</p>
+						</blockquote>
+						<figcaption className="mt-10 flex items-center gap-x-6">
+							<Image
+								className="h-14 w-14 rounded-full bg-gray-50"
+								src="/ansh.jpeg"
+								alt="ansh"
+							/>
+							<div className="text-base">
+								<div className="font-semibold text-white">Ansh Nanda</div>
+								<div className="mt-1 text-gray-500">Software Engineer at Bluesky</div>
+							</div>
+						</figcaption>
+						</figure>
+					</div>
 					</div>
 				</div>
-			</div>
+			</section>
 			<Analytics />
 		</main>
 	);

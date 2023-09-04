@@ -1,13 +1,13 @@
 import { Geologica } from "next/font/google";
 
-import Nav from "./components/Nav";
 import "./globals.css";
+import Nav from "./components/Nav";
 
 const geologica = Geologica({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Expo Stack",
-	description: "The landing page for Create Expo Stack",
+	description: "The easiest way to create a React Native app with Expo",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`bg-gradient-to-b from-red-400 via-[#fb9300] to-yellow-300 min-h-screen ${geologica.className}`}
+				className={`flex flex-col bg-gradient-to-b from-red-400 via-[#fb9300] to-yellow-500 ${geologica.className}`}
 			>
 				<Nav />
 				{children}
