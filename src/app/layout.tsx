@@ -18,12 +18,12 @@ export default function RootLayout({
 				<meta property="og:title" content="Create Expo Stack"></meta>
 				<meta property="og:description" content="The easiest way to create a React Native app with Expo" />
 				<meta property="og:url" content="https://expostack.dev"></meta>
-				<meta property="og:image" content="<generated>" />
+				<meta property="og:image" content="https://expostack.dev/api/og" />
 				<meta property="og:image:alt" content="Create Expo Stack" />
 				<meta property="og:image:type" content="image/png" />
 				<meta property="og:image:width" content="1200" />
 				<meta property="og:image:height" content="630" />
-				<meta property="twitter:image" content="<generated>"></meta>
+				<meta property="twitter:image" content="https://expostack.dev/api/og"></meta>
 				<meta property="twitter:card" content="summary_large_image"></meta>
 				<meta property="twitter:title" content="Create Expo Stack"></meta>
 				<meta property="twitter:description" content="The easiest way to create a React Native app with Expo"></meta>
