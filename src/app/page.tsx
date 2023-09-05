@@ -38,6 +38,8 @@ export default function Home() {
 									className="h-14 w-14 rounded-full bg-gray-50"
 									src="/yefim.jpeg"
 									alt="yefim"
+									width={56}
+									height={56}
 								/>
 								<div className="text-base">
 									<div className="font-semibold text-white">Yefim Vedernikoff</div>
@@ -58,6 +60,8 @@ export default function Home() {
 								className="h-14 w-14 rounded-full bg-gray-50"
 								src="/ansh.jpeg"
 								alt="ansh"
+								width={56}
+								height={56}
 							/>
 							<div className="text-base">
 								<div className="font-semibold text-white">Ansh Nanda</div>
