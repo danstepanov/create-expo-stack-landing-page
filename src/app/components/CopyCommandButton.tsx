@@ -10,10 +10,10 @@ const CopyCommandButton = () => {
 
   return (
     <div className="w-full flex-1 flex flex-col items-center justify-center">
-      <div className="flex">
+      <div className="flex bg-gradient-to-br from-yellow-500 to-orange-500 p-1 rounded-md duration-500 shadow-[0_0_3rem_-3rem,0_0_3rem_-3rem] hover:shadow-[-8rem_0_2rem_-1.75rem,8rem_0_2rem_-1.75rem,-2rem_0_2rem_-0.75rem,2rem_0_2rem_-0.75rem] hover:shadow-orange-400">
         <button
           onClick={toggleIcon}
-          className="flex cursor-pointer flex-row items-center gap-2 rounded-md border border-white bg-white px-2 py-2 text-sm transition-colors duration-300 hover:border-red-500/50 hover:bg-red-500/20 md:px-3 md:py-3 md:text-lg lg:px-5 lg:py-4 lg:text-xl hover:text-white"
+          className="flex cursor-pointer flex-row items-center gap-2 rounded-md bg-black px-2 py-2 text-sm transition-colors duration-300 hover:bg-black/90 md:px-3 md:py-3 md:text-lg lg:px-5 lg:py-4 lg:text-xl text-white"
           title="Copy the command to get started"
           id="command"
         >
