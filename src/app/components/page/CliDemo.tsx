@@ -1,7 +1,7 @@
 // @ts-ignore
 import * as AsciinemaPlayer from "asciinema-player";
 import "asciinema-player/dist/bundle/asciinema-player.css";
-import "../asciinema-theme-mine.css";
+import "../../asciinema-theme-mine.css";
 
 import { useEffect, useRef } from "react";
 
