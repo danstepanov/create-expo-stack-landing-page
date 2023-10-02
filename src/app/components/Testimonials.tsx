@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonials() {
   return (
-    <section className="z-[1] py-16 sm:py-16 w-[90%] sm:w-auto">
+    <>
       <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl  lg:text-[4rem] xl:text-[4rem] pb-16">
         What people are saying
       </h1>
@@ -118,6 +118,6 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 }
