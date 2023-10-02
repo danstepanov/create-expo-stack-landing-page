@@ -30,7 +30,7 @@ export default function Home() {
     <div
       id="cli-demo"
       ref={cliDemoRef}
-      className="w-[90%] h-[50vh] border border-white/30 sm:h-auto sm:w-[60%] p-4 sm:p-6 text-white/70 flex flex-col z-[1] rounded-2xl sm:rounded-[2rem] bg-white/10 overflow-wrap backdrop-blur-sm overflow-hidden opacity-75"
+      className="w-[90%] h-[50vh] border border-white/30 sm:h-auto sm:w-[60%] p-4 sm:p-6 text-white/70 flex flex-col z-[1] rounded-2xl sm:rounded-[2rem] bg-white/10 overflow-wrap backdrop-blur-md overflow-hidden opacity-75"
     ></div>
   );
 }

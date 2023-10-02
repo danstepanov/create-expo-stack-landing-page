@@ -13,7 +13,7 @@ export default function Home() {
       <BackgroundSVG />
       <div className="mb-6 z-[1] flex flex-col gap-24 pb-12 pt-3 sm:pt-5 md:pt-6 2xl:pt-10 w-10/12 max-w-screen-lg">
         <GithubStarButton />
-        <h1 className="text-center text-4xl font-bold tracking-tight text-transparent sm:text-6xl lg:text-[4rem] xl:text-[4rem] bg-clip-text bg-gradient-to-t from-zinc-400 to-33% to-white ">
+        <h1 className="text-center text-4xl font-bold tracking-tight text-transparent sm:text-6xl lg:text-[4rem] xl:text-[4rem] bg-clip-text bg-gradient-to-t from-zinc-400 to-33% to-white">
           {/* bg-gradient-to-r from-white/50 via-white to-white/50 via-69% */}
           {/* The easiest way to create a React Native app with Expo */}
           The most configurable way to create an{" "}
@@ -28,22 +28,22 @@ export default function Home() {
       <CliDemo />
       <section className="pt-8 w-[90%] sm:w-[60%]">
         <div className="flex flex-wrap gap-4">
-          <div className="relative overflow-hidden shadow-[inset_0_0_3rem_#3178C644] border-[#3178C6]/90 bg-[#3178C6]/20 backdrop-blur-sm border text-blue-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
+          <div className="relative group overflow-hidden shadow-[inset_0_0_3rem_#3178C644] border-[#3178C6]/90 bg-[#3178C6]/20 backdrop-blur-sm border text-blue-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
             <Image
-              className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1]"
+              className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:-rotate-6 duration-300"
               alt="typescript"
               src="/ts.svg"
               width={96}
               height={96}
             />
             <Image
-              className="absolute right-2 top-2 shadow-xl opacity-40 sm:opacity-100 -z-[1]"
+              className="absolute right-2 top-2 shadow-xl opacity-40 sm:opacity-100 -z-[1] group-hover:-rotate-12 group-hover:scale-105 duration-300"
               alt="typescript"
               src="/ts.svg"
               width={56}
               height={56}
             />
-            <div className="bg-[#3178C6] font-bold text-black rounded-full px-2 text-sm sm:text-base">
+            <div className="bg-[#3178C6] font-bold text-black rounded-full px-2 text-sm">
               v4.2.0
             </div>
             <h1 className="text-2xl sm:text-3xl mt-2">TypeScript</h1>
@@ -64,7 +64,7 @@ export default function Home() {
               width={56}
               height={56}
             />
-            <div className="bg-white font-bold text-black rounded-full px-2 text-sm sm:text-base">
+            <div className="bg-white font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
             <h1 className="text-2xl sm:text-3xl mt-2">Expo Router</h1>
@@ -85,7 +85,7 @@ export default function Home() {
               width={56}
               height={56}
             />
-            <div className="bg-[#06B6D4] font-bold text-black rounded-full px-2 text-sm sm:text-base">
+            <div className="bg-[#06B6D4] font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
             <h1 className="text-2xl sm:text-3xl mt-2">NativeWind</h1>
@@ -106,7 +106,7 @@ export default function Home() {
               width={56}
               height={56}
             />
-            <div className="bg-[#7b61c1] font-bold text-black rounded-full px-2 text-sm sm:text-base">
+            <div className="bg-[#7b61c1] font-bold text-black rounded-full px-2 text-sm">
               v1.0.0
             </div>
             <h1 className="text-2xl sm:text-3xl mt-2">
@@ -114,7 +114,7 @@ export default function Home() {
             </h1>
             <span className="font-thin">sanotehu sano tun</span>
           </div>
-          <div className="overflow-hidden shadow-[inset_0_0_3rem_#3FCF8E44] border-[#3FCF8E]/40 bg-[#3FCF8E]/10 backdrop-blur-sm border text-[#7FFFBE]/80 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
+          <div className="overflow-hidden border-dashed hover:rounded-xl duration-300 shadow-[inset_0_0_3rem_#3FCF8E44] border-[#3FCF8E]/70 bg-[#3FCF8E]/10 backdrop-blur-sm border text-[#7FFFBE]/80 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
             <Image
               className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1]"
               src="/supabase.svg"
@@ -129,7 +129,7 @@ export default function Home() {
               width={56}
               height={56}
             />
-            <div className="bg-[#3FCF8E]/80 font-bold text-black rounded-full px-2 text-sm sm:text-base">
+            <div className="bg-[#3FCF8E]/80 font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
             <h1 className="text-2xl sm:text-3xl mt-2">Supabase</h1>
@@ -150,7 +150,7 @@ export default function Home() {
               width={56}
               height={56}
             />
-            <div className="bg-[#FFCA28]/90 font-bold text-black rounded-full px-2 text-sm sm:text-base">
+            <div className="bg-[#FFCA28]/90 font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
             <h1 className="text-2xl sm:text-3xl mt-2">Firebase</h1>
