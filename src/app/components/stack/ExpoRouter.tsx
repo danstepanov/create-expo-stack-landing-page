@@ -9,14 +9,14 @@ export default function ExpoRouter() {
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:rotate-[33deg] duration-[600ms]"
-        src="/expo.svg"
+        src="/stack/expo.svg"
         alt="expo"
         width={96}
         height={96}
       />
       <Image
         className="absolute right-2 top-2 shadow-xl opacity-40 sm:opacity-100 -z-[1] group-hover:rotate-[30deg] group-hover:scale-105 duration-500"
-        src="/expo.svg"
+        src="/stack/expo.svg"
         alt="expo"
         width={56}
         height={56}

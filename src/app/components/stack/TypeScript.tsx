@@ -10,14 +10,14 @@ export default function TypeScript() {
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:-rotate-[30deg] duration-[600ms]"
         alt="typescript"
-        src="/ts.svg"
+        src="/stack/typescript.svg"
         width={96}
         height={96}
       />
       <Image
         className="absolute right-2 top-2 shadow-xl opacity-40 sm:opacity-100 -z-[1] group-hover:-rotate-12 group-hover:scale-105 duration-500"
         alt="typescript"
-        src="/ts.svg"
+        src="/stack/typescript.svg"
         width={56}
         height={56}
       />

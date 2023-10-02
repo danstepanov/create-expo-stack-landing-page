@@ -9,14 +9,14 @@ export default function NativeWind() {
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:-rotate-[15deg] duration-[600ms]"
-        src="/nativewind.svg"
+        src="/stack/nativewind.svg"
         alt="nativewind"
         width={96}
         height={96}
       />
       <Image
         className="absolute right-2 top-2 opacity-40 sm:opacity-100 -z-[1] group-hover:-rotate-[30deg] group-hover:scale-105 duration-500"
-        src="/nativewind.svg"
+        src="/stack/nativewind.svg"
         alt="nativewind"
         width={56}
         height={56}

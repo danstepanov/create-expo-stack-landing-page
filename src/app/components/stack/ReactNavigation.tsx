@@ -9,14 +9,14 @@ export default function ReactNavigation() {
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:rotate-[30deg] duration-500"
-        src="/react-navigation.svg"
+        src="/stack/react-navigation.svg"
         alt="react navigation"
         width={96}
         height={96}
       />
       <Image
         className="absolute right-2 top-2 opacity-40 sm:opacity-100 -z-[1] group-hover:-rotate-[30deg] group-hover:scale-105 duration-500"
-        src="/react-navigation.svg"
+        src="/stack/react-navigation.svg"
         alt="react navigation"
         width={56}
         height={56}

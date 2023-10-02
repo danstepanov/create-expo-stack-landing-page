@@ -1,7 +1,6 @@
 import { Geologica } from "next/font/google";
 
 import "./globals.css";
-import Nav from "./components/Nav";
 import Foot from "./components/Foot";
 
 const geologica = Geologica({ subsets: ["latin"] });
@@ -44,7 +43,6 @@ export default function RootLayout({
       <body
         className={`flex flex-col bg-gradient-to-b from-black via-[#111] to-black ${geologica.className}`}
       >
-        <Nav />
         {children}
         <Foot />
       </body>

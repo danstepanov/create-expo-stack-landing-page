@@ -2,10 +2,10 @@
 import { Analytics } from "@vercel/analytics/react";
 
 import CopyCommandButton from "./components/page/CopyCommandButton";
-import GithubStarButton from "./components/page/GithubStarButton";
 import BackgroundSVG from "./components/page/BackgroundSVG";
 import Testimonials from "./components/page/Testimonials";
 import CliDemo from "./components/page/CliDemo";
+import Nav from "./components/Nav";
 
 import TypeScript from "./components/stack/TypeScript";
 import ExpoRouter from "./components/stack/ExpoRouter";
@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center w-full relative overflow-hidden">
       <BackgroundSVG />
+      <Nav />
       {/* aspect-square container to match dimensions of aspect-square BackgroundSVG */}
-      <section className="flex flex-col items-center w-full relative z-[1] aspect-square gap-16 pt-3 sm:pt-5 md:pt-6 2xl:pt-10 ">
-        <GithubStarButton />
+      <section className="flex flex-col items-center w-full relative z-[1] aspect-square gap-16 pt-14">
         <h1 className="w-10/12 max-w-screen-lg text-center text-4xl font-bold tracking-tight text-transparent sm:text-6xl lg:text-[4rem] xl:text-[4rem] bg-clip-text bg-gradient-to-t from-zinc-400 to-33% to-white">
           The most configurable way to create an{" "}
           <span className="bg-gradient-to-br from-yellow-500 to-orange-500 bg-clip-text text-transparent drop-shadow-xl">

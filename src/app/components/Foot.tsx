@@ -10,24 +10,28 @@ export default function Firebase() {
         <br />
         <span className="text-sm">
           by @
-          <a href="https://twitter.com/danstepanov">
-            <span className="font-normal text-white underline decoration-wavy underline-offset-4 hover:underline-offset-1 duration-300">
-              onlydans
-            </span>
+          <a
+            target="_blank"
+            href="https://twitter.com/danstepanov"
+            className="font-normal text-white underline decoration-wavy underline-offset-4 hover:underline-offset-1 duration-300"
+          >
+            onlydans
           </a>{" "}
           under the{" "}
-          <a href="https://github.com/danstepanov/create-expo-stack?tab=MIT-1-ov-file#readme">
-            <span className="font-normal text-white underline decoration-wavy underline-offset-4 hover:underline-offset-1 duration-300">
-              MIT
-            </span>
+          <a
+            target="_blank"
+            href="https://github.com/danstepanov/create-expo-stack?tab=MIT-1-ov-file#readme"
+            className="font-normal text-white underline decoration-wavy underline-offset-4 hover:underline-offset-1 duration-300"
+          >
+            MIT
           </a>{" "}
           license.
         </span>
       </div>
-      <div className="flex flex-col items-end gap-2 justify-end">
-        <h1 className="text-xl font-bold text-white">Socials.</h1>
+      <div className="flex flex-col items-end justify-end">
+        <h1 className="text-xl font-bold text-white mb-1">Socials.</h1>
         <a
-          className="group hover:underline decoration-wavy underline-offset-1 hover:underline-offset-4 duration-300"
+          className="group p-1 hover:underline decoration-wavy underline-offset-1 hover:underline-offset-4 duration-300"
           href="https://twitter.com/danstepanov"
         >
           <div className="group-hover:text-white group-hover:-translate-x-2 duration-300">
@@ -35,7 +39,7 @@ export default function Firebase() {
           </div>
         </a>
         <a
-          className="group hover:underline decoration-wavy underline-offset-1 hover:underline-offset-4 duration-300"
+          className="group p-1 hover:underline decoration-wavy underline-offset-1 hover:underline-offset-4 duration-300"
           href="https://github.com/danstepanov/create-expo-stack"
         >
           <div className="group-hover:text-white group-hover:-translate-x-2 duration-300">
