@@ -1,17 +1,18 @@
 "use client";
 import { Analytics } from "@vercel/analytics/react";
 
-import CopyCommandButton from "./components/CopyCommandButton";
-import GithubStarButton from "./components/GithubStarButton";
-import BackgroundSVG from "./components/BackgroundSVG";
-import Testimonials from "./components/Testimonials";
-import CliDemo from "./components/CliDemo";
-import TypeScript from "./components/TypeScript";
-import ExpoRouter from "./components/ExpoRouter";
-import NativeWind from "./components/NativeWind";
-import ReactNavigation from "./components/ReactNavigation";
-import Supabase from "./components/Supabase";
-import Firebase from "./components/Firebase";
+import CopyCommandButton from "./components/page/CopyCommandButton";
+import GithubStarButton from "./components/page/GithubStarButton";
+import BackgroundSVG from "./components/page/BackgroundSVG";
+import Testimonials from "./components/page/Testimonials";
+import CliDemo from "./components/page/CliDemo";
+
+import TypeScript from "./components/stack/TypeScript";
+import ExpoRouter from "./components/stack/ExpoRouter";
+import NativeWind from "./components/stack/NativeWind";
+import ReactNavigation from "./components/stack/ReactNavigation";
+import Supabase from "./components/stack/Supabase";
+import Firebase from "./components/stack/Firebase";
 
 export default function Home() {
   return (

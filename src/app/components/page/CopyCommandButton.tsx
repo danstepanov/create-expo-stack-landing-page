@@ -1,4 +1,4 @@
-import { useCopyToClipboard } from "../utilities/useCopyToClipboard";
+import { useCopyToClipboard } from "../../utilities/useCopyToClipboard";
 
 const CopyCommandButton = () => {
   const [value, copy, setDelayedCopyText] = useCopyToClipboard();
