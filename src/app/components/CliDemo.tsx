@@ -17,9 +17,8 @@ export default function Home() {
           loop: true,
           autoPlay: true,
           theme: "mine",
-          poster: "npt:1:23",
-          // fit: "height", // TODO: mobile
-          fit: "width",
+          poster: "npt:1:23", // NOTE: idk what this does
+          fit: window.innerWidth > 1025 ? "width" : "height",
           controls: false,
         }
       );
