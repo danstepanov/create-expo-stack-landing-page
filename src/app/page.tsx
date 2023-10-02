@@ -26,7 +26,7 @@ export default function Home() {
         <CopyCommandButton />
       </div>
       <CliDemo />
-      <section className="pt-8 w-[90%] sm:w-[60%]">
+      <section className="pt-8 w-[90%] lg:w-[69%] 2xl:w-[60%]">
         <div className="flex flex-wrap gap-4">
           <div className="relative group overflow-hidden shadow-[inset_0_0_3rem_#3178C644] border-[#3178C6]/90 bg-[#3178C6]/20 backdrop-blur-sm border text-blue-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
             <Image
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="bg-[#3178C6] font-bold text-black rounded-full px-2 text-sm">
               v4.2.0
             </div>
-            <h1 className="text-2xl sm:text-3xl mt-2">TypeScript</h1>
+            <h1 className="text-2xl lg:text-3xl mt-2">TypeScript</h1>
             <span className="font-thin">TypeScript wow</span>
           </div>
           <div className="overflow-hidden shadow-[inset_0_0_3rem_#fff4] border-white/40 bg-white/10 backdrop-blur-sm border text-white p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="bg-white font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
-            <h1 className="text-2xl sm:text-3xl mt-2">Expo Router</h1>
+            <h1 className="text-2xl lg:text-3xl mt-2">Expo Router</h1>
             <span className="font-thin">Expo Router</span>
           </div>
           <div className="relative overflow-hidden shadow-[inset_0_0_3rem_#06B6D444] border-[#06B6D4]/80 bg-[#06B6D4]/20 backdrop-blur-sm border text-cyan-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
@@ -88,7 +88,7 @@ export default function Home() {
             <div className="bg-[#06B6D4] font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
-            <h1 className="text-2xl sm:text-3xl mt-2">NativeWind</h1>
+            <h1 className="text-2xl lg:text-3xl mt-2">NativeWind</h1>
             <span className="font-thin">NativeWind uwu</span>
           </div>
           <div className="relative overflow-hidden shadow-[inset_0_0_3rem_#7b61c144] border-[#7b61c1]/90 bg-[#7b61c1]/20 backdrop-blur-sm border text-purple-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
@@ -109,7 +109,7 @@ export default function Home() {
             <div className="bg-[#7b61c1] font-bold text-black rounded-full px-2 text-sm">
               v1.0.0
             </div>
-            <h1 className="text-2xl sm:text-3xl mt-2">
+            <h1 className="text-2xl lg:text-3xl mt-2">
               React <br className="sm:hidden" /> Navigation
             </h1>
             <span className="font-thin">sanotehu sano tun</span>
@@ -132,7 +132,7 @@ export default function Home() {
             <div className="bg-[#3FCF8E]/80 font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
-            <h1 className="text-2xl sm:text-3xl mt-2">Supabase</h1>
+            <h1 className="text-2xl lg:text-3xl mt-2">Supabase</h1>
             <span className="font-thin">Coming Soon</span>
           </div>
           <div className="overflow-hidden shadow-[inset_0_0_3rem_#FFCA2844] border-[#FFCA28]/40 bg-[#FFCA28]/10 backdrop-blur-sm border text-yellow-200/80 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start">
@@ -153,7 +153,7 @@ export default function Home() {
             <div className="bg-[#FFCA28]/90 font-bold text-black rounded-full px-2 text-sm">
               v6.9.0
             </div>
-            <h1 className="text-2xl sm:text-3xl mt-2">Firebase</h1>
+            <h1 className="text-2xl lg:text-3xl mt-2">Firebase</h1>
             <span className="font-thin">Coming Soon</span>
           </div>
         </div>
