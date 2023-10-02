@@ -1,6 +1,6 @@
 const GithubStarButton = () => {
   return (
-    <button className="text-sm md:text-base group border border-orange-400 bg-orange-900/50 rounded-full p-1 px-2 mx-auto flex gap-2 items-center text-orange-50 font-thin duration-300 hover:bg-orange-700/50 hover:border-orange-300 shadow-[0_0_0.5rem_0] shadow-orange-500 hover:shadow-[0_0_1.5rem_0] hover:shadow-orange-400">
+    <button className="text-sm md:text-base group border border-zinc-400 bg-zinc-500/50 rounded-full p-2 px-3 sm:p-1 sm:px-2 mx-auto flex gap-2 items-center text-zinc-50 font-thin duration-300 hover:bg-zinc-700/50 hover:border-zinc-300 shadow-[0_0_0.5rem_0] shadow-zinc-500 hover:shadow-[0_0_1.5rem_0] hover:shadow-zinc-400">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"
