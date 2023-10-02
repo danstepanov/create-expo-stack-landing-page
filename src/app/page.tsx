@@ -26,7 +26,7 @@ export default function Home() {
         <CopyCommandButton />
       </div>
       <CliDemo />
-      <section className="pt-8 w-[90%] lg:w-[69%] 2xl:w-[60%]">
+      <section className="pt-4 w-[90%] lg:w-[69%] 2xl:w-[60%]">
         <div className="flex flex-wrap gap-4">
           <a
             href="https://www.typescriptlang.org/"
