@@ -43,7 +43,7 @@ export default function Home() {
       <section className="z-[1] py-16 w-[90%] sm:w-auto">
         <Testimonials />
       </section>
-      <section className="z-[1] py-16 w-[90%] lg:w-[69%] 2xl:w-[60%]">
+      <section className="z-[1] pt-16 w-[90%] lg:w-[69%] 2xl:w-[60%]">
         <Socials />
       </section>
       <Analytics />
