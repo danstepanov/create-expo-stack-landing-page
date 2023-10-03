@@ -13,6 +13,7 @@ import NativeWind from "./components/stack/NativeWind";
 import ReactNavigation from "./components/stack/ReactNavigation";
 import Supabase from "./components/stack/Supabase";
 import Firebase from "./components/stack/Firebase";
+import Socials from "./components/page/Socials";
 
 export default function Home() {
   return (
@@ -39,8 +40,11 @@ export default function Home() {
           <Firebase />
         </div>
       </section>
-      <section className="z-[1] py-16 sm:py-16 w-[90%] sm:w-auto">
+      <section className="z-[1] py-16 w-[90%] sm:w-auto">
         <Testimonials />
+      </section>
+      <section className="z-[1] py-16 w-[90%] lg:w-[69%] 2xl:w-[60%]">
+        <Socials />
       </section>
       <Analytics />
     </main>
