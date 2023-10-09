@@ -22,7 +22,7 @@ export default function ExpoRouter() {
         height={56}
       />
       <div className="bg-white/80 group-hover:bg-white duration-500 font-bold text-black rounded-full px-2 text-sm">
-        v6.9.0
+        v2
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">Expo Router</h1>
       <span className="font-thin max-w-[24ch]">Expo Router</span>

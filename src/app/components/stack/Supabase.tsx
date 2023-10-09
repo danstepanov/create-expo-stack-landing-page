@@ -18,7 +18,7 @@ export default function Supabase() {
         height={56}
       />
       <div className="bg-[#3FCF8E]/80 font-bold text-black rounded-full px-2 text-sm">
-        v6.9.0
+        v2
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">Supabase</h1>
       <span className="font-thin max-w-[24ch]">Coming Soon</span>

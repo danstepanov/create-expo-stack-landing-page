@@ -22,7 +22,7 @@ export default function TypeScript() {
         height={56}
       />
       <div className="bg-[#3178C6] duration-500 group-hover:bg-[#5198E6] font-bold text-black rounded-full px-2 text-sm">
-        v4.2.0
+        v5
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">TypeScript</h1>
       <span className="font-thin max-w-[24ch]">

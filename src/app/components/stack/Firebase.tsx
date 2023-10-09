@@ -18,7 +18,7 @@ export default function Firebase() {
         height={56}
       />
       <div className="bg-[#FFCA28]/90 font-bold text-black rounded-full px-2 text-sm">
-        v6.9.0
+        v18
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">Firebase</h1>
       <span className="font-thin max-w-[24ch]">Coming Soon</span>
