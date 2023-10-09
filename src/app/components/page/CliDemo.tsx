@@ -1,26 +1,22 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
+import "../../asciinema-theme-mine.css";
 
 export default function CliDemo() {
   const cliDemoRef = useRef(null);
 
   useEffect(() => {
-    ;(async function () {
+    (async function () {
       // @ts-ignore
-      const AsciinemaPlayerLibrary = await import('asciinema-player')
-      AsciinemaPlayerLibrary.create(
-        "/243x2mo-ascii.cast",
-        cliDemoRef.current,
-        {
-          loop: true,
-          autoPlay: true,
-          theme: "mine",
-          poster: "npt:1:23",
-          fit: window.innerWidth > 1025 ? "width" : "height",
-          controls: false,
-        }
-      )
-    })()
-  }, [])
+      const AsciinemaPlayerLibrary = await import("asciinema-player");
+      AsciinemaPlayerLibrary.create("/243x2mo-ascii.cast", cliDemoRef.current, {
+        loop: true,
+        theme: "mine",
+        autoPlay: true,
+        controls: false,
+        fit: window.innerWidth > 1025 ? "width" : "height",
+      });
+    })();
+  }, []);
 
   return (
     <div
