@@ -25,7 +25,7 @@ export default function NativeWind() {
         v2
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">NativeWind</h1>
-      <span className="font-thin max-w-[24ch]">NativeWind uwu</span>
+      <span className="font-thin max-w-[24ch]">Tailwind for React Native</span>
     </a>
   );
 }

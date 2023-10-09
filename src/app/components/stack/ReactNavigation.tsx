@@ -27,7 +27,7 @@ export default function ReactNavigation() {
       <h1 className="text-2xl lg:text-3xl mt-2">
         React <br className="sm:hidden" /> Navigation
       </h1>
-      <span className="font-thin max-w-[24ch]">Lorem ipsum dolor sit.</span>
+      <span className="font-thin max-w-[24ch]">Configuration-based navigation</span>
     </a>
   );
 }

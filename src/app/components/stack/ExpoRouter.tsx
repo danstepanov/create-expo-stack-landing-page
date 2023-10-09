@@ -25,7 +25,7 @@ export default function ExpoRouter() {
         v2
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">Expo Router</h1>
-      <span className="font-thin max-w-[24ch]">Expo Router</span>
+      <span className="font-thin max-w-[24ch]">File-based navigation with Expo</span>
     </a>
   );
 }

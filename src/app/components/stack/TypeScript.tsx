@@ -26,7 +26,7 @@ export default function TypeScript() {
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">TypeScript</h1>
       <span className="font-thin max-w-[24ch]">
-        TypeScript wow very typesafe
+        Javascript, but with types
       </span>
     </a>
   );

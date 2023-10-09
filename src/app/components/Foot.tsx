@@ -3,7 +3,7 @@ export default function Firebase() {
     <footer className="w-[90%] lg:w-[69%] 2xl:w-[60%] flex justify-between mx-auto text-white/70 p-4 py-12 sm:p-12 font-thin">
       <div className="flex flex-col gap-2 items-start">
         <span className="bg-white/30 border border-white/50 px-1.5 py-0.5 rounded-full text-xs">
-          v0.1.0
+          v2.0.19
         </span>
         <h1 className="text-xl font-bold text-white">create-expo-app</h1>
         The most configurable way to create an Expo app.
