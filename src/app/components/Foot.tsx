@@ -5,7 +5,7 @@ export default function Firebase() {
         <span className="bg-white/30 border border-white/50 px-1.5 py-0.5 rounded-full text-xs">
           v2.0.19
         </span>
-        <h1 className="text-xl font-bold text-white">create-expo-app</h1>
+        <h1 className="text-xl font-bold text-white">create-expo-stack</h1>
         The most configurable way to create an Expo app.
         <br />
         <span className="text-sm">
