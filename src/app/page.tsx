@@ -13,7 +13,6 @@ import NativeWind from "./components/stack/NativeWind";
 import ReactNavigation from "./components/stack/ReactNavigation";
 import Supabase from "./components/stack/Supabase";
 import Firebase from "./components/stack/Firebase";
-import Socials from "./components/page/Socials";
 
 export default function Home() {
   return (
@@ -22,7 +21,7 @@ export default function Home() {
       <Nav />
       {/* everything is z-1 to sit on top of <BackgroundSVG /> */}
       {/* aspect-square container to match dimensions of aspect-square BackgroundSVG */}
-      <section className="z-[1] flex flex-col items-center w-full relative aspect-square gap-16 pt-14">
+      <section className="z-[1] flex flex-col items-center w-full relative lg:aspect-square gap-16 pt-14">
         <h1 className="w-10/12 max-w-screen-lg text-center text-4xl font-bold tracking-tight text-transparent sm:text-6xl lg:text-[4rem] xl:text-[4rem] bg-clip-text bg-gradient-to-t from-zinc-400 to-33% to-white">
           The most configurable way to create an{" "}
           <span className="bg-gradient-to-br from-yellow-500 to-orange-500 bg-clip-text text-transparent drop-shadow-xl">
@@ -41,7 +40,7 @@ export default function Home() {
           <Firebase />
         </div>
       </section>
-      <section className="z-[1] py-16 w-[90%] md:w-[70%] sm:w-auto">
+      <section className="z-[1] pb-16 w-[90%] md:w-[70%] sm:w-auto">
         <Testimonials />
       </section>
       <Analytics />

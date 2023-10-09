@@ -90,3 +90,32 @@ html {
   initial-value: 0deg;
   inherits: false;
 }
+
+@media (min-width: 640px) {
+  .infinite-scroll-x-container {
+    overflow: hidden;
+    mask: linear-gradient(
+      to right,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+    -webkit-mask: linear-gradient(
+      to right,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+  }
+  .infinite-scroll-x {
+    animation: infinite-scroll-x 30s linear infinite;
+  }
+
+  @keyframes infinite-scroll-x {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}

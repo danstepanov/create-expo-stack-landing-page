@@ -1,6 +1,7 @@
-import { useEffect, useRef } from "react";
 import "asciinema-player/dist/bundle/asciinema-player.css";
 import "../../asciinema-theme-mine.css";
+
+import { useEffect, useRef } from "react";
 
 export default function CliDemo() {
   const cliDemoRef = useRef(null);

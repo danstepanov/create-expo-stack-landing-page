@@ -24,10 +24,10 @@ export default function ReactNavigation() {
       <div className="bg-[#7b61c1] group-hover:bg-[#9b81e1] duration-500 font-bold text-black rounded-full px-2 text-sm">
         v6
       </div>
-      <h1 className="text-2xl lg:text-3xl mt-2">
-        React <br className="sm:hidden" /> Navigation
-      </h1>
-      <span className="font-thin max-w-[24ch]">Configuration-based navigation</span>
+      <h1 className="text-2xl lg:text-3xl mt-2">React Navigation</h1>
+      <span className="font-thin max-w-[24ch]">
+        Configuration-based navigation
+      </span>
     </a>
   );
 }

@@ -1,19 +1,38 @@
 import Image from "next/image";
 import DoubleQuote from "./DoubleQuote";
+import { useEffect, useRef } from "react";
 
 export default function Testimonials() {
+  const innerScrollerRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (innerScrollerRef.current && window.innerWidth >= 1024) {
+      const scrollerContent = Array.from(
+        innerScrollerRef.current.children
+      ) as HTMLElement[];
+      scrollerContent.forEach((child) => {
+        const duplicatedNode = child.cloneNode(true) as HTMLElement;
+        duplicatedNode.setAttribute("aria-hidden", "true");
+        innerScrollerRef.current!.appendChild(duplicatedNode);
+      });
+    }
+  }, []);
+
   return (
     <>
-      <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl  lg:text-[4rem] xl:text-[4rem] pb-16">
+      <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-[4rem] xl:text-[4rem] pb-16 pt-24 2xl:pt-0">
         What people are saying
       </h1>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
+      <div className="infinite-scroll-x-container mx-auto max-w-7xl px-6 sm:px-8">
+        <div
+          ref={innerScrollerRef}
+          className="infinite-scroll-x sm:w-max sm:pt-8 relative sm:flex flex-nowrap mx-auto grid max-w-2xl grid-cols-1 sm:mx-0 sm:max-w-none"
+        >
+          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:px-8 sm:pt-0 xl:pl-20">
             <figure className="flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white relative">
                 <DoubleQuote />
-                <p>
+                <p className="max-w-[40ch]">
                   {
                     "Thanks for building create-expo-stack! It's helped our team to quickly spin up apps and test various modules prior to adding them to our production application."
                   }
@@ -38,11 +57,11 @@ export default function Testimonials() {
               </figcaption>
             </figure>
           </div>
-          <div className="flex flex-col lg:-ml-[0.5px] border-white/20 pt-10 sm:pt-16 lg:border-l lg:pl-8 lg:pt-0 xl:pl-20">
+          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:px-8 sm:pt-0 xl:pl-20">
             <figure className="flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white relative">
                 <DoubleQuote />
-                <p>
+                <p className="max-w-[40ch]">
                   {
                     "This is great! I've been using this for a ton of proof of concept applications. This serves my needs better than using create-expo-app."
                   }
