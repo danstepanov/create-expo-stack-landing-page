@@ -5,7 +5,7 @@ export default function TypeScript() {
     <a
       target="_blank"
       href="https://www.typescriptlang.org/"
-      className="group overflow-hidden shadow-[inset_0_0_3rem_#3178C644] hover:shadow-[inset_0_0_8rem_#3178C644,0_0_2rem_#3178C644] border-[#3178C6]/90 hover:border-[#4188D6] bg-[#3178C6]/20 backdrop-blur-sm border text-blue-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500"
+      className="xl:min-w-[50%] group overflow-hidden shadow-[inset_0_0_3rem_#3178C644] hover:shadow-[inset_0_0_8rem_#3178C644,0_0_2rem_#3178C644] border-[#3178C6]/90 hover:border-[#4188D6] bg-[#3178C6]/20 backdrop-blur-sm border text-blue-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500"
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:-rotate-[30deg] duration-[600ms]"
@@ -25,9 +25,7 @@ export default function TypeScript() {
         v5
       </div>
       <h1 className="text-2xl lg:text-3xl mt-2">TypeScript</h1>
-      <span className="font-thin max-w-[24ch]">
-        Javascript, but with types
-      </span>
+      <span className="font-thin max-w-[24ch]">Javascript, but with types</span>
     </a>
   );
 }
