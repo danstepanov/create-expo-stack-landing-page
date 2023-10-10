@@ -5,7 +5,7 @@ export default function NativeWind() {
     <a
       target="_blank"
       href="https://www.nativewind.dev/"
-      className="group overflow-hidden shadow-[inset_0_0_3rem_#06B6D444] hover:shadow-[inset_0_0_8rem_#06B6D444,0_0_2rem_#06B6D444] border-[#06B6D4]/80 hover:border-[#06B6D4] bg-[#06B6D4]/20 backdrop-blur-sm border text-cyan-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500"
+      className="group overflow-hidden shadow-[inset_0_0_3rem_#06B6D444] hover:shadow-[inset_0_0_8rem_#06B6D444,0_0_2rem_#06B6D444] border-[#06B6D4]/80 hover:border-[#06B6D4] bg-[#06B6D4]/20 backdrop-blur-sm border text-cyan-200 p-4 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500"
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:-rotate-[15deg] duration-[600ms]"
@@ -24,7 +24,7 @@ export default function NativeWind() {
       <div className="bg-[#06B6D4] group-hover:bg-[#26D6F4] duration-500 font-bold text-black rounded-full px-2 text-sm">
         v2
       </div>
-      <h1 className="text-2xl lg:text-3xl mt-2">NativeWind</h1>
+      <h1 className="text-2xl mt-2">NativeWind</h1>
       <span className="font-thin max-w-[24ch]">Tailwind for React Native</span>
     </a>
   );
