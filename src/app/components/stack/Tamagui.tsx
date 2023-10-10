@@ -2,10 +2,13 @@ import Image from "next/image";
 
 export default function Tamagui() {
   return (
+    // make the component take up the full width of the container on mobile
+    // and then take up 1/3 of the container on desktop
+    // https://tailwindcss.com/docs/responsive-design#using-combinators
     <a
       target="_blank"
       href="https://tamagui.dev/"
-      className="group overflow-hidden shadow-[inset_0_0_3rem_#FFCA2844] border-[#FFCA28]/70 bg-[#FFCA28]/10 backdrop-blur-sm border text-[#FFEA48]/80 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500 border-dashed hover:rounded-xl"
+      className="group overflow-hidden shadow-[inset_0_0_3rem_#FFCA2844] border-[#FFCA28]/70 bg-[#FFCA28]/10 backdrop-blur-sm border text-[#FFEA48]/80 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500 border-dashed hover:rounded-xl w-full sm:w-auto"
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:-rotate-[15deg] duration-[600ms]"
