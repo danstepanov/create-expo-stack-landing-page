@@ -5,7 +5,7 @@ export default function ReactNavigation() {
     <a
       target="_blank"
       href="https://reactnavigation.org/"
-      className="group overflow-hidden shadow-[inset_0_0_3rem_#7b61c144] hover:shadow-[inset_0_0_8rem_#7b61c144,0_0_2rem_#7b61c144] border-[#7b61c1]/90 hover:border-[#7b61c1] bg-[#7b61c1]/20 backdrop-blur-sm border text-purple-200 p-4 pr-0 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500"
+      className="group overflow-hidden shadow-[inset_0_0_3rem_#7b61c144] hover:shadow-[inset_0_0_8rem_#7b61c144,0_0_2rem_#7b61c144] border-[#7b61c1]/90 hover:border-[#7b61c1] bg-[#7b61c1]/20 backdrop-blur-sm border text-purple-200 p-4 sm:pr-20 flex-grow rounded-3xl flex flex-col items-start duration-500"
     >
       <Image
         className="absolute -right-3 -top-3 sm:opacity-40 opacity-10 -z-[1] group-hover:scale-110 group-hover:rotate-[30deg] duration-500"
