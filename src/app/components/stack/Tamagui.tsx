@@ -2,9 +2,6 @@ import Image from "next/image";
 
 export default function Tamagui() {
   return (
-    // make the component take up the full width of the container on mobile
-    // and then take up 1/3 of the container on desktop
-    // https://tailwindcss.com/docs/responsive-design#using-combinators
     <a
       target="_blank"
       href="https://tamagui.dev/"
