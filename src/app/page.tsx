@@ -13,6 +13,7 @@ import NativeWind from "./components/stack/NativeWind";
 import ReactNavigation from "./components/stack/ReactNavigation";
 import Supabase from "./components/stack/Supabase";
 import Firebase from "./components/stack/Firebase";
+import Tamagui from "./components/stack/Tamagui";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
           <TypeScript />
           <ExpoRouter />
           <NativeWind />
+          <Tamagui />
           <ReactNavigation />
           <Supabase />
           <Firebase />
