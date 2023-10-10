@@ -10,8 +10,8 @@ export default function CliDemo() {
     (async function () {
       // @ts-ignore
       const AsciinemaPlayerLibrary = await import("asciinema-player");
-      AsciinemaPlayerLibrary.create("/243x2mo-ascii.cast", cliDemoRef.current, {
-        loop: true,
+      AsciinemaPlayerLibrary.create("demo-mobile.cast", cliDemoRef.current, {
+        loop: false,
         theme: "mine",
         autoPlay: true,
         controls: false,
