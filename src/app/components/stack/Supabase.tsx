@@ -20,7 +20,7 @@ export default function Supabase() {
       <div className="bg-[#3FCF8E]/80 font-bold text-black rounded-full px-2 text-sm">
         v2
       </div>
-      <h1 className="text-2xl lg:text-3xl mt-2">Supabase</h1>
+      <h1 className="text-2xl mt-2">Supabase</h1>
       <span className="font-thin max-w-[24ch]">Coming Soon</span>
     </div>
   );

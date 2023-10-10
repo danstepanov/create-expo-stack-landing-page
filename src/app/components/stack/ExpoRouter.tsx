@@ -24,7 +24,7 @@ export default function ExpoRouter() {
       <div className="bg-white/80 group-hover:bg-white duration-500 font-bold text-black rounded-full px-2 text-sm">
         v2
       </div>
-      <h1 className="text-2xl lg:text-3xl mt-2">Expo Router</h1>
+      <h1 className="text-2xl mt-2">Expo Router</h1>
       <span className="font-thin max-w-[24ch]">
         File-based navigation with Expo
       </span>

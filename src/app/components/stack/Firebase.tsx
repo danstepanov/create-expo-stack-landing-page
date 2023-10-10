@@ -20,7 +20,7 @@ export default function Firebase() {
       <div className="bg-[#FFCA28]/90 font-bold text-black rounded-full px-2 text-sm">
         v18
       </div>
-      <h1 className="text-2xl lg:text-3xl mt-2">Firebase</h1>
+      <h1 className="text-2xl mt-2">Firebase</h1>
       <span className="font-thin max-w-[24ch]">Coming Soon</span>
     </div>
   );

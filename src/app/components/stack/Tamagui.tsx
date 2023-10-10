@@ -24,7 +24,7 @@ export default function Tamagui() {
       <div className="bg-gradient-to-br from-orange-300/90 via-cyan-300/90 to-pink-300/90 duration-500 font-bold text-black rounded-full px-2 text-sm">
         v1
       </div>
-      <h1 className="text-2xl lg:text-3xl mt-2">Tamagui</h1>
+      <h1 className="text-2xl mt-2">Tamagui</h1>
       <span className="font-thin max-w-[24ch]">Coming Soon</span>
     </a>
   );

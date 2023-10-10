@@ -34,10 +34,10 @@ export default function Home() {
         <CliDemo />
         <div className="flex flex-wrap gap-4 pt-4 w-[90%] lg:w-[69%] 2xl:w-[60%]">
           <TypeScript />
-          <ExpoRouter />
           <NativeWind />
-          <Tamagui />
           <ReactNavigation />
+          <Tamagui />
+          <ExpoRouter />
           <Supabase />
           <Firebase />
         </div>
