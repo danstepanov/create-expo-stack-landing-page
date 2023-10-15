@@ -42,7 +42,7 @@ export default function Home() {
           <Firebase />
         </div>
       </section>
-      <section className="z-[1] pb-16 w-[90%] md:w-[70%] sm:w-auto">
+      <section className="z-[1] pb-16 w-[90%] lg:w-[70%] sm:w-auto">
         <Testimonials />
       </section>
       <Analytics />
