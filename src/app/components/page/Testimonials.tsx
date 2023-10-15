@@ -28,7 +28,7 @@ export default function Testimonials() {
           ref={innerScrollerRef}
           className="infinite-scroll-x sm:w-max sm:pt-8 relative sm:flex flex-nowrap mx-auto grid max-w-2xl grid-cols-1 sm:mx-0 sm:max-w-none"
         >
-          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:pr-8 sm:pt-0 sm:pl-20">
+          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:pr-8 sm:pt-0 sm:pl-16">
             <figure className="flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white relative">
                 <DoubleQuote />
@@ -57,7 +57,7 @@ export default function Testimonials() {
               </figcaption>
             </figure>
           </div>
-          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:pr-8 sm:pt-0 sm:pl-20">
+          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:pr-8 sm:pt-0 sm:pl-16">
             <figure className="flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white relative">
                 <DoubleQuote />
