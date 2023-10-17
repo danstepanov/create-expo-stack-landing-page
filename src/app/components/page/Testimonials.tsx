@@ -6,7 +6,7 @@ export default function Testimonials() {
   const innerScrollerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (innerScrollerRef.current && window.innerWidth >= 1024) {
+    if (innerScrollerRef.current && window.innerWidth >= 640) {
       const scrollerContent = Array.from(
         innerScrollerRef.current.children
       ) as HTMLElement[];
@@ -20,7 +20,7 @@ export default function Testimonials() {
 
   return (
     <>
-      <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-[4rem] xl:text-[4rem] pb-16 pt-24 2xl:pt-0">
+      <h1 className="text-center text-4xl font-bold tracking-tight text-white md:text-6xl lg:text-[4rem] xl:text-[4rem] pb-16 pt-24 2xl:pt-0">
         What people are saying
       </h1>
       <div className="infinite-scroll-x-container mx-auto max-w-7xl px-6 sm:px-8">
@@ -28,7 +28,7 @@ export default function Testimonials() {
           ref={innerScrollerRef}
           className="infinite-scroll-x sm:w-max sm:pt-8 relative sm:flex flex-nowrap mx-auto grid max-w-2xl grid-cols-1 sm:mx-0 sm:max-w-none"
         >
-          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:px-8 sm:pt-0 xl:pl-20">
+          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:pr-8 sm:pt-0 sm:pl-16">
             <figure className="flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white relative">
                 <DoubleQuote />
@@ -57,7 +57,7 @@ export default function Testimonials() {
               </figcaption>
             </figure>
           </div>
-          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:px-8 sm:pt-0 xl:pl-20">
+          <div className="flex flex-col sm:-ml-[0.5px] border-white/20 pt-16 sm:border-l sm:pr-8 sm:pt-0 sm:pl-16">
             <figure className="flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white relative">
                 <DoubleQuote />
