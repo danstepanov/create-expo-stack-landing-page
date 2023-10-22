@@ -13,7 +13,9 @@ export default function Testimonials() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
           repudiandae inventore atque, eius optio minima laboriosam eum enim.
         </p>
-        <div className="flex gap-3 justify-center">
+        {/* honeycomb grid for the future */}
+        {/* [&>*:nth-child(9n_+_1)]:ml-[1.875rem] sm:[&>*:nth-child(9n_+_1)]:ml-[2.375rem] */}
+        <div className="flex flex-wrap gap-3 w-[18rem] sm:w-[23rem]">
           {contributors.map((contributor) => (
             <Contributor
               contributor={contributor}
