@@ -1,6 +1,6 @@
 export default function Firebase() {
   return (
-    <footer className="w-[90%] lg:w-[69%] 2xl:w-[60%] flex justify-center md:justify-between mx-auto text-white/70 p-4 py-12 sm:p-12 font-thin">
+    <footer className="w-[90%] lg:w-[69%] 2xl:w-[60%] flex justify-center md:justify-between mx-auto text-white/70 p-4 py-12 sm:p-12 font-thin bg-gradient-to-t from-black to-transparent from-[69%] sm:-mt-12 z-50">
       <div className="flex flex-col gap-2 items-start">
         <div className="flex w-full justify-between">
           <span className="bg-white/30 border border-white/50 px-1.5 py-0.5 rounded-full text-xs">
