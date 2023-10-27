@@ -9,9 +9,8 @@ export default function Testimonials() {
       </h1>
       <div className="flex flex-col items-center gap-6">
         <p className="text-neutral-200 max-w-[50ch] text-center leading-loose">
-          {/* TODO: replace */}
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
-          repudiandae inventore atque, eius optio minima laboriosam eum enim.
+          Create-Expo-Stack is open-source and built by developers just like
+          you. These are some of the contributors who made this possible so far.
         </p>
         {/* honeycomb grid for the future */}
         {/* [&>*:nth-child(9n_+_1)]:ml-[1.875rem] sm:[&>*:nth-child(9n_+_1)]:ml-[2.375rem] */}
